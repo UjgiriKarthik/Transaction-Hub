@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav1 {
+    position: fixed;
+    background-color: skyblue;
+    height: 70px;
+    width: 100%;
+}
+
+label {
+    
+    text-align: right;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav1 ul {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+.nav1 ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.nav2 {
+    position: fixed;
+    margin-bottom: 20%;
+    margin-top: 70px; 
+    background-color: rgb(33, 34, 39);
+    height: 100%;
+    width: 18%;
+}
+
+.nav2 ul {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav2 ul li {
+    line-height: 50px;
+    margin: 19px;
+}
+
+.nav2 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.content{
+    padding:10% 20%;
+}
